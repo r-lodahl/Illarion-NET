@@ -1,0 +1,52 @@
+﻿namespace Assets.Common.Character
+{
+    public enum Race
+    {
+        Unknown = -1,
+
+        HumanMale = 0,
+        DwarfMale = 1,
+        HalflingMale = 2,
+        ElfMale = 3,
+        OrcMale = 4,
+        Lizardmen = 5,
+        ColumnOfResurrection = 7,
+        ForestTroll = 9,
+        Mummy = 10,
+        Skeleton = 11,
+        FloatingEye = 12,
+        Sheep = 18,
+        Spider = 19,
+        Pig = 24,
+        Wasp = 27,
+        Golem = 30,
+        Cow = 37,
+        Wolf = 39,
+        Bear = 51,
+        Raptor = 52,
+        Zombie = 53,
+        Hellhound = 54,
+        Imp = 55,
+        IronGolem = 56,
+        RatMan = 57,
+        Dog = 58,
+        Beetle = 59,
+        Fox = 60,
+        Slime = 61,
+        Chicken = 62,
+        BoneDragon = 63,
+        Rat = 111,
+        BlackDragon = 112,
+        Rabbit = 113,
+        Akaltut = 114,
+        Fairy = 115,
+        Deer = 116,
+        Ettin = 117,
+
+        HumanFemale = 1000,
+        DwarfFemale = 1001,
+        HalflingFemale = 1002,
+        ElfFemale = 1003,
+        OrcFemale = 1004
+    }
+}
